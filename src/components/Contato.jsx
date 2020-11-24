@@ -8,7 +8,12 @@ export const Contato = () => {
     <div className="contato animaLeft">
       <Head title="Contato" />
       <img src={foto} alt="contato" />
-      <div>dados</div>
+      <div className="dados">
+        <h1>Entre em contato:</h1>
+        <p>Nome: Igor Heije</p>
+        <p>Email: igorhe@gmail.com</p>
+        <p>telefone: 9999999999</p>
+      </div>
     </div>
   );
 };
