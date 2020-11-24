@@ -1,0 +1,13 @@
+.contato {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.contato > img {
+  border-radius: 10px;
+
+  width: 330px;
+  height: 450px;
+}
